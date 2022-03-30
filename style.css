@@ -1,0 +1,114 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    .body {
+        font-family: "Robot", sans-serif;
+    }
+    
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        overflow: none;
+        
+    }
+    
+    .header-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: .6rem 0;
+    }
+    
+    .image-icon {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .text-name {
+        color: gray;
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+    
+    .front-img{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    
+    .about-profile {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fix-line {
+        font-weight: bold;
+        margin: .3rem 1rem 0;
+        height: 1.2rem;
+        color: #707070;
+    }
+    
+    
+    .txt-center {
+        text-align: center;
+    }
+    
+    .title{
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+    }
+
+    .container {
+        position: absolute;
+        top: 0px;
+        position: sticky;
+        z-index: 3;
+    }
+    .short-icon {
+        display: flex;
+        justify-content: center;
+        gap: 3.2rem;
+        padding: 1rem;
+        background-color: #fff5f5;
+    }
+    
+    .profiles{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* padding: .5rem; */
+        justify-items: center;
+        overflow: hidden;
+        column-gap: .5rem;
+        /* margin-top: .8rem; */
+    }
+    
+    .pic img {
+        position: relative;
+        width: 7.5rem;
+        height: 10.5rem;
+        margin: .1rem 0;
+    }
+    
+    .footer-icon {
+        display: flex;
+        justify-content: center;
+        gap: 3.2rem;
+        padding: 1rem;
+        position: sticky;
+        bottom: 0%;
+        background-color: #fff5f5;
+        z-index: 11;
+    }
+    
