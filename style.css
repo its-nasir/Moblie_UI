@@ -6,7 +6,9 @@
     
     html,
     .body {
-        font-family: "Robot", sans-serif;
+        /* width: 375;
+        height: 813; */
+        font-family: "Poppins", sans-serif;
     }
     
     .main-container {
@@ -91,7 +93,11 @@
         justify-items: center;
         overflow: hidden;
         column-gap: .5rem;
-        /* margin-top: .8rem; */
+        margin-top: .4rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        
+
     }
     
     .pic img {
@@ -111,4 +117,7 @@
         background-color: #fff5f5;
         z-index: 11;
     }
+
     
+
+   
